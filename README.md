@@ -57,6 +57,7 @@ Developed by: DHARSHINI.S.N RegisterNumber: 24900524
 
 
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
+
 ![image](https://github.com/user-attachments/assets/fdfece62-94bb-4272-a21b-e9ab0ac8953a)
 
 
