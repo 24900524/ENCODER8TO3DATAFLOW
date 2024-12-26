@@ -40,12 +40,12 @@ Figure 02  Encoder 8 * 3
 
 **PROGRAM**
 ```
- module exp5(a,b,c,y0,y1,y2,y3,y4,y5,y6,y7);
- input y0,y1,y2,y3,y4,y5,y6,y7;
- output a,b,c;
- assign a= ( y4 | y5 | y6 | y7);
- assign b= ( y2 | y3 | y6 | y7);
- assign c= ( y1 | y3 | y5 | y7);
+ module exp5(a2,a1,a0,d0,d1,d2,d3,d4,d5,d6,d7);
+ input d0,d1,d2,d3,d4,d5,d6,d7;
+ output a2,a1,a0;
+ assign a2= ( d4 | d5 | d6 | d7);
+ assign a1= ( d2 | d3 | d6 | d7);
+ assign a0= ( d1 | d3 | d5 | d7);
  endmodule
 ```
 /* Program for Encoder 8 To 3 in Dataflow Modelling and verify its truth table in quartus using Verilog programming. 
